@@ -14,3 +14,15 @@
 - Python
 
 ## 실행 방법
+```python
+- python을 설치한 경우
+git clone https://github.com/anrunda9/minesweeper.git
+cd minesweeper
+python execute.py
+
+- python 미설치시
+docker pull anrunda9/ubuntu-python3-assignment
+docker run -it anrunda9/ubuntu-python3-assignment
+cd minesweeper
+python3 execute.py
+```
